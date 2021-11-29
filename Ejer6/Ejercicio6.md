@@ -1,48 +1,36 @@
 # Ejecuta el programa "Hola mundo" en los siguientes lenguajes.
 -Bash
-echo Hola, soy Javier Loureiro
+./hola.sh
 
 -Python
-print("Hola, soy Javier Loureiro");
+./hola.py
 
 -Php
-echo "Hola, soy Javier Loureiro";
+./hola.php
 
 -JavaScript(nodejs)
-const server = http.createServer(function (req, res) {
-    res.writeHead(200, {'content-type': 'text/plain'});
-    res.end('Hola, soy Javier Loureiro');
-});
+./hola.js
 
 -C
-#include <stdio.h>
-int main()
-{
-    printf( "Hola, soy JAvier Loureiro." );
-    return 0;
-}
+.hola
 
 -C++
-#include <iostream>
-using namespace std;
-int main() {
-    cout << "Hola Mundo" << endl;
-    return 0;
-}
+./hola
 
 -Java 
-public class main {
-     public static void main (String args[]) {
-          System.out.pintIn("Hola, soy Javier Loureiro");
-     }
-}
+java hola
 
 -Ruby
+./hola
 
 -Go
+./hola
 
 -Rust
+./hola
 
 -Lisp
+./hola.lisp
 
 -Ensambrador(nasm)
+./hola
