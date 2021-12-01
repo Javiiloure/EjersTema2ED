@@ -14,8 +14,8 @@ public class Aritmetica {
         return (numero1*numero2);
   }
 
-  public static int division (int dividendo, int divisor) {
-        return (dividendo/(divisor);
+  public static float division (int dividendo, int divisor) {
+        return (dividendo/(float)divisor);
   }
 
 }

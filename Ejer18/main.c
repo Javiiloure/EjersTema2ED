@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "aritmetica.h"/*archivo de cabecera*/
 
-#define NUM1	6
-#define NUM2	3
+#define NUM1	5
+#define NUM2	2
 
 
 int main (){
@@ -10,6 +10,6 @@ int main (){
   printf ("La suma es %d\n", suma (NUM1, NUM2));
   printf ("La resta es %d\n", resta (NUM1, NUM2));
   printf ("La multiplicación es %d\n", multiplicacion (NUM1, NUM2));
-  printf ("La división es %d\n", division (NUM1, NUM2));
+  printf ("La división es %f/n", division (NUM1, NUM2));
   return 0;
 }

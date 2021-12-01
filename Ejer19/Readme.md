@@ -14,7 +14,7 @@ public static int resta (int minuendo, int sustraendo) { return (minuendo-sustra
 
 public static int multiplicacion (int numero1, int numero2) { return (numero1*numero2); }
 
-public static int division (int dividendo, int divisor) { return (dividendo/divisor); }
+public static float division (int dividendo, int divisor) { return (dividendo/divisor); }
 
 }
 
@@ -44,12 +44,12 @@ javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer19$ javac Main.java
 
 javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer19$ java Main
 
-Dados los números 6 y 3
+Dados los números 5 y 2
 
-La suma es 9
+La suma es 7
 
 La resta es 3
 
-La multiplicación es 18
+La multiplicación es 10
 
-La división es 2
+La división es 2.5

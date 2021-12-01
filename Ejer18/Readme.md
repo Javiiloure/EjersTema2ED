@@ -17,7 +17,7 @@ int resta (int minuendo, int sustraendo) { return (minuendo-sustraendo); }
 
 int multiplicacion (int numero1, int numero2) { return (numero1*numero2); }
 
-int division (int dividendo, int divisor) { return (dividendo/(divisor); } 
+int division (int dividendo, int divisor) { return (dividendo/(float)divisor); } 
 
 javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer18$ cat > main.c
 
@@ -25,9 +25,9 @@ javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer18$ cat > main.c
 
 #include "aritmetica.h"/archivo de cabecera/
 
-#define NUM1 6
+#define NUM1 5
 
-#define NUM2 3
+#define NUM2 2
 
 int main (){
 
@@ -41,7 +41,7 @@ printf ("La multiplicación es %d\n", multiplicacion
 
 (NUM1, NUM2));
 
-printf ("La división es %d\n", division (NUM1, NUM2));
+printf ("La división es %f\n", division (NUM1, NUM2));
 
 return 0;
 
@@ -61,12 +61,12 @@ javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer18$ ldd main linux-vdso.so.1 (
 
 javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ej18$ ./main
 
-Dados los números 6 y 3
+Dados los números 5 y 2
 
-La suma es 9
+La suma es 7
 
 La resta es 3
 
-La multiplicación es 18
+La multiplicación es 10
 
-La división es 2
+La división es 2.50000
