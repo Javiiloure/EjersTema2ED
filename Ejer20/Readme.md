@@ -4,7 +4,7 @@
 
 - Al compilarse con las bibliotecas, estas quedan fusionadas a el quedando asi independiente de estas ya que tiene una copia
 
--Carga más rápida
+- Carga más rápida
 
 2/ Desventajas
 
