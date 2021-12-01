@@ -5,4 +5,4 @@ int resta  (int minuendo, int sustraendo);
 
 int multiplicacion (int  numero1, int numero2);
 
-float division (int dividendo, int divisor);
+int division (int dividendo, int divisor);

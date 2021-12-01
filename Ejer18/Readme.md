@@ -7,7 +7,7 @@ int resta (int minuendo, int sustraendo);
 
 int multiplicacion (int numero1, int numero2);
 
-float division (int dividendo, int divisor);
+int division (int dividendo, int divisor);
 
 javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer18$ cat > aritmetica.c
 
