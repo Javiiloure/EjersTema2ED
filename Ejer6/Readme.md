@@ -1,4 +1,4 @@
-# Ejecuta el programa "Hola mundo" en los siguientes lenguajes.
+## Ejecuta el programa "Hola mundo" en los siguientes lenguajes.
 -Bash
 ./hola.sh
 
