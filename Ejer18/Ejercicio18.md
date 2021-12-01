@@ -17,7 +17,9 @@ int resta (int minuendo, int sustraendo) { return (minuendo-sustraendo); }
 
 int multiplicacion (int numero1, int numero2) { return (numero1*numero2); }
 
-int division (int dividendo, int divisor) { return (dividendo/(float)divisor); } javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer18$ cat > main.c
+int division (int dividendo, int divisor) { return (dividendo/(divisor); } 
+
+javiloure@javiloure-VirtualBox:~/EjersTema2ED/Ejer18$ cat > main.c
 
 #include <stdio.h>
 

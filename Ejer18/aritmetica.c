@@ -10,9 +10,7 @@ int resta  (int minuendo, int sustraendo) {
 
 int multiplicacion (int  numero1, int numero2) {
 	return (numero1*numero2);
-}
 
-
-float division (int dividendo, int divisor) {
-	return (dividendo/(float)divisor);
+int division (int dividendo, int divisor) {
+	return (dividendo/divisor);
 }
